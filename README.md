@@ -1,1 +1,1 @@
-# Natalie's Portfolio on the web for art 3870 w2018
+# ART 3870 - Website Redesign - Project 2 - Paya Thai Cuisine
