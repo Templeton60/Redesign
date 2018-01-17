@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Coustard');
+
+nav {
+  /* background-color: rgb(35,35,35); */
+  background-color: white;
+}
+.menu-padding {
+  padding: 22px 50px;
+  margin-top:
+}
+
+/* .main {
+  background-image:url(../img/main.jpeg);
+  background-repeat: no-repeat;
+  background-color:rgb(35,35,35);
+  background-position: center;
+  height: 1200px;
+  border: 3px solid rgb(255,204,221);
+} */
+
+.hook {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+nav ul li a {
+  color:rgb(68,69,156);
+  font-family: "Coustard";
+}
+
+nav ul li a:hover {
+  color:rgb(68,69,156);
+}
+/* .is-active {
+  background-color: red;
+} */
+
+
+.current {
+  background-color:rgb(68,69,156);
+  color: white;
+
+}
