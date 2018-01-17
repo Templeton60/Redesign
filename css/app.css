@@ -6,7 +6,6 @@ nav {
 }
 .menu-padding {
   padding: 22px 50px;
-  margin-top:
 }
 
 /* .main {
@@ -29,15 +28,34 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color:rgb(68,69,156);
+  color:rgb(255,204,221);
 }
-/* .is-active {
-  background-color: red;
-} */
+
 
 
 .current {
   background-color:rgb(68,69,156);
   color: white;
+}
 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(0 , 0, 0, 0.5);
+    padding: 70px;
+    letter-spacing: 2px;
+    font-family: "Coustard";
+    font-size: 4rem;x
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.border {
+  border-top: 10px solid rgb(255,204,221);
 }
