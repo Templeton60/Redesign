@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Coustard');
 
+/* MAIN PAGE STARTS HERE */
+
+/* * {
+  border: 1px solid limegreen;
+} */
+body {
+  background-color: white;
+}
+
 nav {
   /* background-color: rgb(35,35,35); */
   background-color: white;
 }
-.menu-padding {
+/* .menu-padding {
   padding: 22px 50px;
-}
+} */
 
 /* .main {
   background-image:url(../img/main.jpeg);
@@ -17,18 +26,20 @@ nav {
   border: 3px solid rgb(255,204,221);
 } */
 
-.hook {
+/* .hook {
   background-color: rgba(0, 0, 0, 0.5);
-}
+} */
 
 
 nav ul li a {
   color:rgb(68,69,156);
   font-family: "Coustard";
+  text-align: center;
 }
 
 nav ul li a:hover {
-  color:rgb(255,204,221);
+  /* color:rgb(255,204,221); */
+  background-color: rgba(255,204,221, .5);
 }
 
 
@@ -47,7 +58,7 @@ nav ul li a:hover {
     padding: 70px;
     letter-spacing: 2px;
     font-family: "Coustard";
-    font-size: 4rem;x
+    font-size: 4rem;
 }
 
 .container {
@@ -59,3 +70,51 @@ nav ul li a:hover {
 .border {
   border-top: 10px solid rgb(255,204,221);
 }
+
+.pad {
+  padding: 10px;
+}
+.marg {
+  margin-top: 100px;
+}
+
+.catch div:link {
+  color:white;
+}
+
+.catch div:hover {
+  color:rgb(255,204,221);
+}
+
+.gradient::after{
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
+}
+
+p {
+  font-family: Alegreya sans;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-family: Coustard;
+  font-size: 3.9vw;;
+  text-align: center;
+}
+.pinkcontainer {
+  background-color: rgba(255,204,221, .5);
+  padding:5px;
+}
+
+.full {
+  width: 100vw;
+}
+.margbottom {
+  margin-bottom: 40px;
+}
+/* MAIN PAGE ENDS HERE */
