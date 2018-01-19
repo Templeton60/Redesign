@@ -53,10 +53,15 @@
 <article class="grid-x">
   <section class="cell container">
     <div class="gradient">
-      <img class="border full" src="img/main.jpeg" alt="main food image" >
+      <!-- <img class="border fluid" src="img/main.jpeg" alt="main food image" > -->
+
+      <img class="full border" data-interchange="[img/main-small.jpg, small],
+                                          [img/main.jpeg, medium],
+                                          [img/main.jpeg, large]">
+
     </div>
       <!-- <p class="hook">Test</p> -->
-      <div class="catch cell">
+      <div class="catch cell small-12 medium-4 large-3">
         <div id="hungry" class="centered">Hungry?</div>
       </div>
   </section>

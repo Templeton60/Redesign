@@ -55,16 +55,18 @@ nav ul li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color:rgba(0 , 0, 0, 0.5);
-    padding: 70px;
+    /* padding: 70px; */
     letter-spacing: 2px;
     font-family: "Coustard";
-    font-size: 4rem;
+    font-size: 4em;
+    z-index: 10;
 }
 
 .container {
     position: relative;
     text-align: center;
     color: white;
+    z-index: 1;
 }
 
 .border {
@@ -103,7 +105,7 @@ p {
 
 h2 {
   font-family: Coustard;
-  font-size: 3.9vw;;
+  font-size: 3.9vw;
   text-align: center;
 }
 .pinkcontainer {
