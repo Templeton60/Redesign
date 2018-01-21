@@ -8,9 +8,10 @@
     <title>Menu - Paya Thai</title> <!-- add title -->
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/menu.css">
   </head>
 
-<body id="mainpage"> <!-- Add id for page here-->
+<body id="menupage"> <!-- Add id for page here-->
   <!-- Start the header section of each page here -->
 
   <!-- NAV AND HEADER -->
@@ -20,32 +21,153 @@
     </div>
     <nav class="cell large-9 menu align-right">
       <ul class="menu">
-        <li><a href="index.html" class="current">Home</a></li>
-        <li><a href="menu.html">Menu</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="current">Menu</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="location.html">Location</a></li>
       </ul>
     </nav>
   </header>
-
-<article class="grid-x">
+<!-- end of header -->
+<article class="grid x">
   <section class="cell container">
     <h3 class="large-6 cell">Menu</h3>
-    <nav id="navbar" class="cell large-6 align-center">
+    <nav id="navbar" class="cell pinkcontainer">
       <ul class="menu align-center menu-padding">
-        <li><a href="#specials">specials</a></li>
+        <li><a href="#specials">Specials</a></li>
         <li><a href="#lunch">Lunch</a></li>
         <li><a href="#dinner">Dinner</a></li>
         <li><a href="#beer">Wine & Beer</a></li>
       </ul>
     </nav>
-    <div id="content" class="large-6 cell">
-      <p>Lorem ipsum dolor amet slow-carb truffaut retro, meh typewriter humblebrag kogi forage celiac. Food truck marfa you probably haven't heard of them kogi beard palo santo pickled franzen whatever. Biodiesel hammock church-key man bun glossier skateboard. Adaptogen jianbing gochujang roof party shaman swag cred edison bulb. Poutine pabst VHS, ethical try-hard pork belly organic brooklyn authentic literally.</p>
-      <p>Etsy poke poutine, ugh four dollar toast viral occupy thundercats four loko man braid cred chicharrones hoodie quinoa palo santo. Photo booth street art viral, whatever XOXO tousled pabst cred flannel. Kale chips freegan selvage, enamel pin locavore glossier four dollar toast authentic pitchfork put a bird on it artisan. Vegan subway tile cornhole enamel pin sriracha seitan cloud bread leggings sartorial viral listicle. Blue bottle kale chips raclette, air plant vinyl gochujang literally forage paleo edison bulb meh direct trade ennui. Aesthetic williamsburg banjo, wolf cloud bread bitters artisan vegan wayfarers drinking vinegar hoodie pop-up pork belly.</p>
-      <p>Deep v whatever quinoa hoodie before they sold out crucifix man braid waistcoat keytar. Mustache hell of photo booth ennui. Unicorn vegan meh, four dollar toast readymade dreamcatcher +1 flannel bushwick organic tote bag distillery DIY. Normcore vegan ennui knausgaard blog, craft beer live-edge plaid mumblecore selfies kombucha you probably haven't heard of them migas put a bird on it.</p>
-      <p>Artisan edison bulb copper mug, paleo DIY 3 wolf moon meggings. Put a bird on it chicharrones marfa leggings, slow-carb austin portland 3 wolf moon. Small batch drinking vinegar vaporware franzen butcher cold-pressed meh. Readymade next level green juice craft beer bespoke vape paleo brooklyn letterpress occupy kale chips shabby chic knausgaard. Hammock paleo listicle, YOLO photo booth tilde freegan waistcoat. Chillwave unicorn chia ethical, live-edge vaporware flannel whatever blue bottle bushwick seitan shoreditch af before they sold out vape.</p>
-    </div>
+  </section>
+  <section class="grid container">
+    <div class="grid-x">
+    <div id="content" class="large-8 large-offset-2 cell">
+      <h3 id="specials" class="menu-section-title">Specials</h3>
+      <h4>Salad</h4>
+			<!-- Item starts -->
+			<div class="menu-item">
+				<p class="menu-item-name">Lab (Chicken or Pork)</p>
+				<p class="menu-item-price">
+					$9.95
+				</p>
+				<p class="menu-item-description">
+          Cooked ground chicken or pork with onions chili, mint leaves in lime juice and a touch of rice powder
+				</p>
+			</div>
+			<!-- Item ends -->
+      <!-- Item starts -->
+			<div class="menu-item">
+				<p class="menu-item-name">
+          Somtam (Green Papaya Salad)
+				</p>
+				<p class="menu-item-price">
+					$8.95
+				</p>
+				<p class="menu-item-description">
+          Shredded green papaya, tomato, green beans, and ground peanut seasoned with spicy lime dressing
+				</p>
+			</div>
+			<!-- Item ends -->
+      <div class="menu-item">
+				<p class="menu-item-name">
+          Salmon Salad
+				</p>
+				<p class="menu-item-price">
+					$10.95
+				</p>
+				<p class="menu-item-description">
+          Cooked salmon with spicy lime dressing, mint leaves, ginger, onions and peanuts
+				</p>
+			</div>
+			<!-- Item ends -->
 
+      <h4>Soups</h4>
+			<!-- Item starts -->
+			<div class="menu-item">
+				<p class="menu-item-name">Tom Yam Salmon</p>
+				<p class="menu-item-price">
+					$11.95
+				</p>
+				<p class="menu-item-description">
+          Salmon in spicy and sour soup with lemon grass and mushrooms
+				</p>
+			</div>
+			<!-- Item ends -->
+      <h4>Thai Curries</h4>
+      <!-- Item starts -->
+			<div class="menu-item">
+				<p class="menu-item-name">Pumpkin Curry (Chicken or Tofu)</p>
+				<p class="menu-item-price">$10.95</p>
+				<p class="menu-item-description">
+          Steamed pumpkin with chicken or tofu in coconut milk and, red curry, sweet basil, and chili</p>
+			</div>
+			<!-- Item ends -->
+      <div class="menu-item">
+				<p class="menu-item-name">Salmon Prigkhing</p>
+				<p class="menu-item-price">$12.95</p>
+				<p class="menu-item-description">Sauteed Salmon and green beans in red curry paste</p>
+			</div>
+			<!-- Item ends -->
+      <!-- Item ends -->
+      <div class="menu-item">
+        <p class="menu-item-name">Green Curry Salmon</p>
+        <p class="menu-item-price">$12.95</p>
+        <p class="menu-item-description">Steamed Salmon, eggplant in coconut milk and green curry with sweet basil and chili</p>
+      </div>
+      <!-- Item ends -->
+      <p>Lorem ipsum dolor amet authentic try-hard etsy small batch keffiyeh, blog hashtag af godard ramps deserunt pour-over voluptate. Eu wayfarers sint enamel pin, +1 tofu mustache dolore air plant pickled slow-carb blog. Messenger bag tote bag lorem chia intelligentsia locavore proident. Pitchfork officia shoreditch butcher, selvage ramps cred adaptogen pickled. Try-hard viral crucifix unicorn keffiyeh.</p>
+      <h3 id="lunch" class="menu-section-title">Lunch</h3>
+      <p>Mon- Fri 11:30am - 2:30pm</p>
+      <p>All of Lunch Specials canbe added $1.95 for a cup of chicken in light coconut milk soup (in house only)</p>
+      <h4>Rice plates</h4>
+			<!-- Item starts -->
+			<div class="menu-item">
+				<p class="menu-item-name">KOW MOK GAI </p>
+				<p class="menu-item-price">$9.95</p>
+				<p class="menu-item-description">Rice cooked with Thai herbs and marinated chicken in curry powder sauce</p>
+			</div>
+			<!-- Item ends -->
+      <!-- Item starts -->
+			<div class="menu-item">
+				<p class="menu-item-name">KOW NA GAI </p>
+				<p class="menu-item-price">$8.95</p>
+				<p class="menu-item-description">Sautéed chicken with bamboo shoots, mushrooms, baby corns and onions</p>
+			</div>
+			<!-- Item ends -->
+      <!-- Item starts -->
+      <div class="menu-item">
+        <p class="menu-item-name">KOW GAI PRIG POW</p>
+        <p class="menu-item-price">$8.95</p>
+        <p class="menu-item-description">Sautéed chicken in chili paste with baby corns and bell pepper
+</p>
+      </div>
+      <!-- Item ends -->
+      <!-- Item starts -->
+      <div class="menu-item">
+        <p class="menu-item-name">KOW NA GAI </p>
+        <p class="menu-item-price">$8.95</p>
+        <p class="menu-item-description">Sautéed chicken with bamboo shoots, mushrooms, baby corns and onions</p>
+      </div>
+      <!-- Item ends -->
+      <!-- Item starts -->
+      <div class="menu-item">
+        <p class="menu-item-name">KOW NA GAI </p>
+        <p class="menu-item-price">$8.95</p>
+        <p class="menu-item-description">Sautéed chicken with bamboo shoots, mushrooms, baby corns and onions</p>
+      </div>
+      <!-- Item ends -->
+      <!-- Item starts -->
+      <div class="menu-item">
+        <p class="menu-item-name">KOW NA GAI </p>
+        <p class="menu-item-price">$8.95</p>
+        <p class="menu-item-description">Sautéed chicken with bamboo shoots, mushrooms, baby corns and onions</p>
+      </div>
+      <!-- Item ends -->
+
+    </div>
+    </div>
   </section>
 </article>
 
