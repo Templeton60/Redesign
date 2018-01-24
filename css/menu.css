@@ -41,6 +41,9 @@
   text-align: left;
   color: rgb(68, 69, 156);
 }
+/* h3 #menu-title{
+  font-size: 3rem;
+} */
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -62,7 +65,7 @@
 }
 
 .menu-item-name{
-  font-family: helvetica;
+  /* font-family: helvetica; */
   font-size: 1rem;
   font-weight: bold;
   border-bottom: 2px dotted rgb(213, 213, 213);
