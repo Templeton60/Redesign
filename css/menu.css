@@ -84,3 +84,8 @@
   font-size: .9rem;
   margin-top: -11px;
 }
+#menupage h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 4em;
+  color: rgb(246,88,1);
+}
