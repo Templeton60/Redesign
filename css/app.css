@@ -1,83 +1,83 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Coustard');
+/* {outline:1px solid red;}*/
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display'); */
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Quicksand');
 
-/* MAIN PAGE STARTS HERE */
-
-/* * {
-  border: 1px solid limegreen;
-} */
-body {
-  background-color: white;
+body, nav{
+  font-family: 'Quicksand', sans-serif;
 }
-
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Quicksand', sans-serif;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 1.5rem;
+  padding: 4px;
+  margin-left: 15px;
+}
+h3 {
+  padding: 4px;
+  margin-left: 15px;
+}
+p {
+  font-size: 1.25rem;
+  padding: 4px;
+  margin-left: 15px;
+  margin-right: auto;
+  text-indent: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
 nav {
-  /* background-color: rgb(35,35,35); */
-  background-color: white;
+  padding-top: 15px;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  margin-left: 15px;
 }
-/* .menu-padding {
-  padding: 22px 50px;
-} */
-
-/* .main {
-  background-image:url(../img/main.jpeg);
-  background-repeat: no-repeat;
-  background-color:rgb(35,35,35);
-  background-position: center;
-  height: 1200px;
-  border: 3px solid rgb(255,204,221);
-} */
-
-/* .hook {
-  background-color: rgba(0, 0, 0, 0.5);
-} */
-
-
-nav ul li a {
-  color:rgb(68,69,156);
-  font-family: "Coustard";
-  text-align: center;
+nav a:link, nav a:visited {
+  color: rgb(255,255,255);
+  background-color: rgb(0,0,0);
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
-nav ul li a:hover {
-  /* color:rgb(255,204,221); */
-  background-color: rgba(255,204,221, .5);
-}
-
-
-
-.current {
-  background-color:rgb(68,69,156);
-  color: white;
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color:rgba(0 , 0, 0, 0.5);
-    padding: 70px;
-    letter-spacing: 2px;
-    font-family: "Coustard";
-    font-size: 4rem;
-}
-
-.container {
-    position: relative;
-    text-align: center;
+input[type=submit] {
+    background-color: rgb(0,0,0);
     color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.border {
-  border-top: 10px solid rgb(255,204,221);
+input[type=submit]:hover {
+    background-color: rgb(255,255,255);
+    color: rgb(0,0,0);
 }
-
-.pad {
-  padding: 10px;
+label {
+  padding: 3px;
 }
-.marg {
-  margin-top: 100px;
+.container {
+    border-radius: 5px;
+    background-color: rgba(176,196,222);
+    padding: 10px;
 }
-
+body {
+  background-color: rgb(211,211,211);
+}
+img {
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
 .catch div:link {
   color:white;
 }
@@ -85,36 +85,15 @@ nav ul li a:hover {
 .catch div:hover {
   color:rgb(255,204,221);
 }
-
-.gradient::after{
-  display: block;
-  position: relative;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
-  margin-top: -150px;
-  height: 150px;
-  width: 100%;
-  content: '';
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(0 , 0, 0, 0.5);
+    padding: 25px;
+    letter-spacing: 2px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4rem;
 }
-
-p {
-  font-family: Alegreya sans;
-  font-size: 1.5rem;
-}
-
-h2 {
-  font-family: Coustard;
-  font-size: 3.9vw;;
-  text-align: center;
-}
-.pinkcontainer {
-  background-color: rgba(255,204,221, .5);
-  padding:5px;
-}
-
-.full {
-  width: 100vw;
-}
-.margbottom {
-  margin-bottom: 40px;
-}
-/* MAIN PAGE ENDS HERE */
+/* comment */
