@@ -1,49 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 #menupage {
   background: white;
 }
 #navbar {
   overflow: hidden;
-  background-color: #FFF;
-  z-index: 1000
+  background-color: rgb(192,76,3);
+  z-index: 1000000000000;
 }
+
 #navbar a {
   float: left;
   display: block;
-  color: rgb(68, 69, 156);
+  color: #FFF;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.3rem;
 }
 
 #navbar a:hover {
-  /* background-color: #ddd; */
-  background-color: rgb(255, 204, 221);
+  background-color: rgba(246,88,1, .5)
+  color: black;
 }
 
 #navbar a.active {
   background-color: #4CAF50;
-  color: rgb(68, 69, 156);
+  color: white;
 }
+/* #navbar {
+  overflow: hidden;
+  background-color: white;
+  border: 2px dotted black;
+  z-index: 10;
+}
+#navbar a {
+  /* float: left; */
+  /* display: block;
+  color: rgb(68, 69, 156);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+} */
+
+/* #navbar a:hover { */
+  /* background-color: #ddd; */
+  /* background-color: rgb(255, 204, 221); */
+
+
+/* #navbar a.active {
+  background-color: #4CAF50;
+  color: rgb(68, 69, 156);
+} */
+/* sticky nav end */
+
 #content {
   padding: 16px;
   margin-top: 60px; /* Add a top margin to avoid content overlay */
+  z-index: -2;
 }
 #content p {
   color: rgb(0, 0, 0);
   font-size: 1.2rem;
+  font-family: 'Quicksand', sans-serif;
+}
+#menupage h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 4em;
+  color: rgb(246, 88, 1);
 }
 #menupage h3 {
-  color: rgb(68, 69, 156);
+  color: rgb(246, 88, 1);
   font-size: 1.8rem;
 }
 #menupage h4 {
   text-align: left;
-  color: rgb(68, 69, 156);
+  color: rgb(246, 88, 1);
 }
-/* h3 #menu-title{
-  font-size: 3rem;
-} */
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -54,18 +87,19 @@
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 /* Menu format css */
 
 .menu-item {
-  margin: 35px 0;
+  margin: 35px ;
   font-size: 18px;
 }
 
 .menu-item-name{
   /* font-family: helvetica; */
+  font-family: 'Quicksand', sans-serif;
   font-size: 1rem;
   font-weight: bold;
   border-bottom: 2px dotted rgb(213, 213, 213);
@@ -73,19 +107,30 @@
 }
 
 .menu-item-description {
+  font-family: 'Quicksand', sans-serif;
   font-style: italic;
+  font-weight: lighter;
+  color: #ddd;
   font-size: .5rem;
-  line-height: 1rem;
+  line-height: 2rem;
+  padding: 0 10px;
+  text-align: left;
 }
 
 .menu-item-price{
+  font-family: 'Quicksand', sans-serif;
   float: right;
   font-weight: bold;
-  font-size: .9rem;
+  font-size: .5rem;
   margin-top: -11px;
 }
-#menupage h1 {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 4em;
-  color: rgb(246,88,1);
+.menu-section-title {
+  /* font-family: georgia; */
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.8rem;
+  display: block;
+  font-weight:normal;
+  margin: 20px 0;
+  text-align: Center;
+  z-index: 0;
 }
