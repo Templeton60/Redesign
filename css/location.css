@@ -1,7 +1,7 @@
 /* {outline:1px solid red;}*/
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display'); */
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Quicksand');
-
+/* location css here */
 body, nav{
   font-family: 'Quicksand', sans-serif;
 }
@@ -17,16 +17,20 @@ h2 {
   margin-left: 15px;
 }
 h3 {
-  padding: 4px;
+  padding: 1px;
   margin-left: 15px;
 }
 p {
   font-size: 1.25rem;
-  padding: 4px;
+  padding: 1px;
   margin-left: 15px;
   margin-right: auto;
   text-indent: 10px;
   font-family: 'Quicksand', sans-serif;
+}
+.current {
+  background-color:rgb(192,76,3);
+  color: white;
 }
 nav {
   padding-top: 15px;
@@ -34,10 +38,15 @@ nav {
   color: rgb(0, 0, 0);
   margin-left: 15px;
 }
-nav a:link, nav a:visited {
+nav ul li a:hover {
+  /* color:rgb(255,204,221); */
+  background-color: rgba(246,88,1, .5);
+  color: black;
+}
+/* nav a:link, nav a:visited {
   color: rgb(255,255,255);
   background-color: rgb(0,0,0);
-}
+} */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -71,7 +80,7 @@ label {
     padding: 10px;
 }
 body {
-  background-color: rgb(211,211,211);
+  background-color: rgb(255,255,255);
 }
 img {
   text-align: center;
@@ -97,3 +106,4 @@ img {
     font-size: 4rem;
 }
 /* comment */
+/* location css ends here */
