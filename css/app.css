@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Coustard');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 
 /* MAIN PAGE STARTS HERE */
-
-/* * {
+/*
+* {
   border: 1px solid limegreen;
 } */
 body {
@@ -32,20 +34,21 @@ nav {
 
 
 nav ul li a {
-  color:rgb(68,69,156);
-  font-family: "Coustard";
+  color:rgb(0,0,0);
+  font-family: 'Quicksand', sans-serif;
   text-align: center;
 }
 
 nav ul li a:hover {
   /* color:rgb(255,204,221); */
-  background-color: rgba(255,204,221, .5);
+  background-color: rgba(246,88,1, .5);
+  color: black;
 }
 
 
 
 .current {
-  background-color:rgb(68,69,156);
+  background-color:rgb(192,76,3);
   color: white;
 }
 
@@ -54,21 +57,23 @@ nav ul li a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color:rgba(0 , 0, 0, 0.5);
-    padding: 70px;
+    /* background-color:rgba(0 , 0, 0, 0.5); */
+    /* padding: 20px;
     letter-spacing: 2px;
-    font-family: "Coustard";
-    font-size: 4rem;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4em; */
+    z-index: 10;
 }
 
 .container {
     position: relative;
     text-align: center;
     color: white;
+    z-index: 1;
 }
 
 .border {
-  border-top: 10px solid rgb(255,204,221);
+  border-top: 3px solid rgb(246,88,1);
 }
 
 .pad {
@@ -78,13 +83,13 @@ nav ul li a:hover {
   margin-top: 100px;
 }
 
-.catch div:link {
+/* .catch div:link {
   color:white;
 }
 
 .catch div:hover {
-  color:rgb(255,204,221);
-}
+  color:rgb(192,76,3);
+} */
 
 .gradient::after{
   display: block;
@@ -97,17 +102,18 @@ nav ul li a:hover {
 }
 
 p {
-  font-family: Alegreya sans;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.5rem;
 }
 
 h2 {
-  font-family: Coustard;
-  font-size: 3.9vw;;
+  font-family: 'Kaushan Script', cursive;
+  /* font-size: 3.9vw; */
+  font-size: 3.7em;
   text-align: center;
 }
-.pinkcontainer {
-  background-color: rgba(255,204,221, .5);
+.footercontainer {
+  background-color: rgba(246,88,1,.5);
   padding:5px;
 }
 
@@ -117,4 +123,12 @@ h2 {
 .margbottom {
   margin-bottom: 40px;
 }
+
+#mainpage h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 4em;
+  color: rgb(246,88,1);
+}
+
+
 /* MAIN PAGE ENDS HERE */
